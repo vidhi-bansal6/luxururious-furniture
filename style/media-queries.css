@@ -1,11 +1,11 @@
-@media (max-width: 1200px) {
+@media(max-width:1200px) {
   html {
     font-size: 57.5%;
     overflow-x: hidden;
   }
 }
 
-@media (max-width: 900px) {
+@media(max-width: 900px) {
   .commitment {
     width: 100%;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media(max-width: 850px) {
   .commitment {
     align-items: center;
     flex-direction: column;
@@ -166,11 +166,14 @@
   }
 }
 
-@media (max-width: 480px) {
+@media(max-width: 420px) {
   html {
-    font-size: 57.5%;
+    font-size: 55.5%;
   }
-
+  .commitment-text h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
   .form {
     width: 100%;
     margin: 0 auto;
