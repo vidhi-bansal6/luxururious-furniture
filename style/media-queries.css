@@ -1,0 +1,210 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 57.5%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 900px) {
+  .commitment {
+    width: 100%;
+  }
+  .commitment-text h1 {
+    font-size: 3.8rem;
+  }
+  .commitment-text h3 {
+    font-size: 2rem;
+    padding-top: 2.2rem;
+  }
+  .commitment-text p {
+    font-size: 1.4rem;
+    padding-top: 2.2rem;
+  }
+  .tailor h2 {
+    font-size: 1.6rem;
+    padding: 3.8rem 0;
+  }
+  .tailor h1 {
+    font-size: 4rem;
+  }
+  .tailor p {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+  }
+  .tailored {
+    width: 100%;
+  }
+  .contact {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .commitment {
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  .commitment-img {
+    width: 70%;
+  }
+
+  .commitment-image {
+    width: 50%;
+    height: 50%;
+  }
+  .commitment-text {
+    background-color: #fff8f7;
+    width: 70%;
+    padding: 3rem;
+    text-align: center;
+  }
+  .commitment-text h1 {
+    font-size: 3.8rem;
+    text-align: center;
+  }
+
+  .commitment-text h3 {
+    font-size: 2rem;
+    padding-top: 2.2rem;
+  }
+  .commitment-text p {
+    font-size: 1.4rem;
+    padding-top: 2.2rem;
+  }
+  .commitment-text a:link {
+    padding: 0.7rem;
+
+    font-size: 1.6rem;
+  }
+  .tailor {
+    width: 45%;
+    text-align: center;
+  }
+  .tailor h2 {
+    font-size: 1.6rem;
+    padding: 3.8rem 0;
+  }
+  .tailor h1 {
+    font-size: 4rem;
+  }
+  .tailor p {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+  }
+
+  .tailor button {
+    margin: 2rem 0;
+  }
+  .tailor a:link {
+    padding: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  .contact {
+    width: 100%;
+    background-color: #fff8f7;
+    padding-bottom: 0.5rem;
+  }
+
+  .contact-text {
+    margin: 2.8rem auto;
+
+    width: 55%;
+    text-align: center;
+  }
+  .contact-text h1 {
+    font-size: 4.6rem;
+
+    padding: 2rem 0;
+  }
+  .contact-text p {
+    font-size: 1.2rem;
+
+    padding: 0.6rem;
+  }
+
+  .form {
+    width: 95%;
+    padding: 3rem;
+    margin: 0 auto;
+  }
+
+  .form input {
+    padding: 1rem;
+    width: 45%;
+    margin: 1rem;
+  }
+
+  .form select {
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+  }
+  .form .address {
+    height: 10rem;
+    width: 100%;
+  }
+  .check {
+    padding-top: 2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .check span {
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+  }
+
+  .check button {
+    margin: 4rem auto;
+    margin-top: 3rem;
+  }
+
+  .check a:link {
+    padding: 0.8rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 57.5%;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form input {
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .check button {
+    margin: 2rem auto;
+    margin-top: 2rem;
+  }
+
+  .check span {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  .check {
+    padding-top: 1rem;
+  }
+  .form .address {
+    height: 7rem;
+  }
+
+  .contact-text p {
+    font-size: 1.2rem;
+
+    padding: 0rem;
+  }
+  .contact-text h1 {
+    font-size: 3.6rem;
+
+    padding: 2rem 0;
+  }
+}
