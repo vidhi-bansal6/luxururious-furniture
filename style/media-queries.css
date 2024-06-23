@@ -190,7 +190,7 @@ font-size: 3.6rem;
   
   }
   .commitment-img {
-    width: 75%;
+    width: 95%;
   }
 
   .commitment-image {
@@ -199,7 +199,7 @@ font-size: 3.6rem;
   }
   .commitment-text {
     background-color: #fff8f7;
-    width: 75%;
+    width: 95%;
     padding: 2.6rem;
     text-align: center;
   }
@@ -308,6 +308,26 @@ font-size: 3.6rem;
     padding: 0.8rem;
     font-size: 1.4rem;
   }
+  .photo img{
+    height: 70vh;
+    width: 100%;
+  
+  }
+  .photo-2 img{
+    height: 70vh;
+    width: 100%;
+  
+  }
+  .photo-3 img{
+    height: 70vh;
+    width: 100%;
+  
+  }
+  .photo-4 img{
+    height: 70vh;
+    width: 100%;
+  }
+  
 
   }
 
@@ -316,6 +336,11 @@ font-size: 3.6rem;
   html {
     font-size: 55.5%;
     overflow-x: hidden;
+  }
+  .home-div {
+  
+    margin-top: 8rem;
+   
   }
   .commitment-text h1 {
     font-size: 3rem;
@@ -356,6 +381,9 @@ font-size: 3.6rem;
     font-size: 3.6rem;
 
     padding: 2rem 0;
+  }
+  .nav-link{
+    width: 91%;
   }
  
 }
