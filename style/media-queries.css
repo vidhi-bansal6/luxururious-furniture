@@ -37,13 +37,23 @@
   .contact {
     width: 100vw;
   }
+  .home-heading-1{
+    font-size: 2.4rem;
+  }
+  .home-heading-2{
+font-size: 3.6rem;
+  }
 }
 
 @media(max-width: 850px) {
+  html{
+    overflow-x: hidden;
+  }
   .commitment {
     align-items: center;
     flex-direction: column;
     padding: 3rem;
+    width: 100%;
   }
   .commitment-img {
     width: 70%;
@@ -166,9 +176,146 @@
   }
 }
 
+
+@media(max-width:650px){
+  html{
+    overflow-x: hidden;
+  }
+  .commitment {
+    align-items: center;
+    flex-direction: column;
+    padding: 2.8rem;
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  .commitment-img {
+    width: 75%;
+  }
+
+  .commitment-image {
+    width: 50%;
+    height: 50%;
+  }
+  .commitment-text {
+    background-color: #fff8f7;
+    width: 75%;
+    padding: 2.6rem;
+    text-align: center;
+  }
+  .commitment-text h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .commitment-text h3 {
+    font-size: 1.8rem;
+    padding-top: 2.2rem;
+  }
+  .commitment-text p {
+    font-size: 1.4rem;
+    padding-top: 2.2rem;
+  }
+  .commitment-text a:link {
+    padding: 0.7rem;
+
+    font-size: 1.6rem;
+  }
+  .tailor {
+    width: 45%;
+    text-align: center;
+  }
+  .tailor h2 {
+    font-size: 1.4rem;
+    padding: 3.6rem 0;
+  }
+  .tailor h1 {
+    font-size: 3.8rem;
+  }
+  .tailor p {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+
+  .tailor button {
+    margin: 2rem 0;
+  }
+  .tailor a:link {
+    padding: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  .contact {
+    width: 100%;
+    background-color: #fff8f7;
+    padding-bottom: 0.5rem;
+  }
+
+  .contact-text {
+    margin: 2.8rem auto;
+
+    width: 55%;
+    text-align: center;
+  }
+  .contact-text h1 {
+    font-size: 4.4rem;
+
+    padding: 2rem 0;
+  }
+  .contact-text p {
+    font-size: 1.2rem;
+
+    padding: 0.6rem;
+  }
+
+  .form {
+    width: 95%;
+    padding: 3rem;
+    margin: 0 auto;
+  }
+
+  .form input {
+    padding: 1rem;
+    width: 45%;
+    margin: 1rem;
+  }
+
+  .form select {
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+  }
+  .form .address {
+    height: 10rem;
+    width: 100%;
+  }
+  .check {
+    padding-top: 2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .check span {
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+  }
+
+  .check button {
+    margin: 4rem auto;
+    margin-top: 3rem;
+  }
+
+  .check a:link {
+    padding: 0.8rem;
+    font-size: 1.4rem;
+  }
+
+  }
+
+
 @media(max-width: 420px) {
   html {
     font-size: 55.5%;
+    overflow-x: hidden;
   }
   .commitment-text h1 {
     font-size: 3rem;
@@ -210,4 +357,5 @@
 
     padding: 2rem 0;
   }
+ 
 }
